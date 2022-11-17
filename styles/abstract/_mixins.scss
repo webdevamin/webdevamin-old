@@ -1,0 +1,40 @@
+// Responsiveness
+@mixin xs {
+  @media (min-width: 345px) {
+    @content;
+  }
+}
+
+@mixin sm {
+  @media (min-width: 460px) {
+    @content;
+  }
+}
+
+@mixin md {
+  @media (min-width: 976px) {
+    @content;
+  }
+}
+
+// Other
+
+@mixin transition($duration: 0.3s, $ease: ease-in-out) {
+  transition: $duration $ease;
+}
+
+@mixin neu($inset: false, $offset: 10px, $blur: 20px) {
+  background: var(--background);
+
+  @if $inset {
+    box-shadow: inset $offset $offset $blur var(--neu_one),
+      inset (-$offset) (-$offset) $blur var(--neu_two);
+  } @else {
+    box-shadow: $offset $offset $blur var(--neu_one),
+      (-$offset) (-$offset) $blur var(--neu_two);
+  }
+}
+
+@mixin glow($blur: 30px, $spread: 3px, $color) {
+  box-shadow: 0 0 $blur $spread $color;
+}

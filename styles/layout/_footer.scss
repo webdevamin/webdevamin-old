@@ -1,0 +1,61 @@
+footer {
+  padding: 3rem 0.7rem 3rem 0.7rem;
+  margin-top: 4rem;
+  border-top: 1px solid var(--background_three);
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  column-gap: 3.75rem;
+  row-gap: 1.65rem;
+
+  @extend .container;
+
+  section {
+    h3 {
+      margin-bottom: 1.5rem;
+    }
+
+    li,
+    a {
+      line-height: 1.45rem;
+
+      @include md {
+        line-height: 1.55rem;
+      }
+    }
+
+    li {
+      margin-bottom: 0.5rem;
+    }
+
+    a {
+      &:hover {
+        color: var(--theme);
+        @include transition;
+
+        * {
+          color: var(--theme);
+          @include transition;
+        }
+
+        svg {
+          transform: rotate(360deg);
+        }
+      }
+    }
+  }
+
+  @include sm {
+    padding: 3rem 0 3rem 0;
+
+    section {
+      h3 {
+        margin-bottom: 1.3rem;
+      }
+
+      li {
+        margin-bottom: 0.3rem;
+      }
+    }
+  }
+}

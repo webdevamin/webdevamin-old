@@ -1,0 +1,36 @@
+{
+  "name": "webdevamin",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "postbuild": "next-sitemap",
+    "start": "next start",
+    "lint": "next lint",
+    "export": "next export"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.1.1",
+    "@fortawesome/free-brands-svg-icons": "^6.1.1",
+    "@fortawesome/free-regular-svg-icons": "^6.1.1",
+    "@fortawesome/free-solid-svg-icons": "^6.1.1",
+    "@fortawesome/react-fontawesome": "^0.1.18",
+    "framer-motion": "^6.3.11",
+    "graphql": "^16.5.0",
+    "graphql-request": "^4.2.0",
+    "next": "12.1.5",
+    "next-intl": "^2.7.1",
+    "next-sitemap": "^3.1.21",
+    "next-themes": "^0.2.0",
+    "react": "18.1.0",
+    "react-dom": "18.1.0",
+    "react-lottie-player": "^1.4.2",
+    "typewriter-effect": "^2.18.2"
+  },
+  "devDependencies": {
+    "eslint": "8.14.0",
+    "eslint-config-next": "12.1.5",
+    "sass": "^1.51.0"
+  }
+}

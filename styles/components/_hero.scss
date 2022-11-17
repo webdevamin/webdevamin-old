@@ -1,0 +1,21 @@
+.hero {
+  padding-top: 1.5rem;
+
+  .lottie {
+    max-width: 275px;
+    padding: 2rem;
+    border-radius: 8px;
+    margin-top: 0.5rem;
+    margin-bottom: 3.25rem;
+
+    @include neu;
+  }
+
+  .hero_bottom {
+    .Typewriter__wrapper {
+      color: var(--theme);
+    }
+  }
+
+  @extend .font_one;
+}

@@ -1,0 +1,77 @@
+{
+  "general": {
+    "readMore": "Meer lezen",
+    "comingSoon": "Binnenkort beschikbaar",
+    "services": {
+      "name": "Diensten",
+      "data": "Webdesign,Webdevelopment,SEO"
+    }
+  },
+  "seo": {
+    "title": "Software Ontwikkelaar uit Brugge, België | Webdevamin",
+    "description": "Ik ontwikkel digitale oplossingen voor uw zaak met focus op uw behoeften. Webdesign, webdevelopment, SEO en meer. Contacteer om uw online bedrijf te boosten.",
+    "imagePath": "/images/ogbanner-nl.png"
+  },
+  "header": {
+    "lang": {
+      "link": "nl",
+      "switchLangLink": "en",
+      "switchLangText": "EN"
+    },
+    "nav": {
+      "home": "Home",
+      "projects": "Projecten",
+      "blogs": "Blogs",
+      "faq": "Veelgestelde vragen"
+    }
+  },
+  "hero": {
+    "summary": "Ik ben een software ontwikkelaar uit België.",
+    "welcome": "Welkom op mijn portfolio",
+    "iam": "Hallo, Ik ben Amin",
+    "role_one": "een webdesigner",
+    "role_two": "een webdeveloper",
+    "role_three": "een software engineer"
+  },
+  "about": {
+    "title": "Wie ben ik",
+    "text": "Ik ontwikkel digitale oplossingen voor uw zaak bijvoorbeeld een website, webapplicatie, etc. Gespecialiseerd in web- en mobile development, webdesign, SEO en digital marketing met focus op uw behoeften. Tevreden klanten met uitstekende software. Mijn motto: Hou het kort, maar lever state-of-art applicaties. Voor vragen of indien u een digitale oplossing (zoals een website) nodig hebt, aarzel dan niet om contact met mij op te nemen.",
+    "resume": {
+      "link": "https://docs.google.com/document/d/e/2PACX-1vRBNW6Qx5boNDZps5K41-aQGBZPedj5fjr2FtgE_UicIvbMYS84To_k2bqbnKhqxPw5hxICaXkqYE3S/pub",
+      "text": "Mijn CV"
+    }
+  },
+  "notFound": {
+    "title": "Pagina niet gevonden",
+    "text": "Deze pagina bestaat niet.",
+    "link": "Naar homepagina"
+  },
+  "error": {
+    "title": "Server fout",
+    "text": "Er ging iets mis met de server. Probeer het later opnieuw."
+  },
+  "blogs": {
+    "title": "Blogs",
+    "title_two": "Skills, lessen en meer",
+    "description": "Aanschouw een lijst met interessante onderwerpen, verhalen en lessen over IT, ontwikkeling, carrière, freelance, etc. Klik op een blog voor meer informatie.",
+    "noBlogs": "Momenteel zijn er geen blogs beschikbaar. Kom later nog eens terug."
+  },
+  "blog": {
+    "back": "Terug naar blogs"
+  },
+  "projects": {
+    "title": "Projecten",
+    "title_two": "Mijn werk en realisaties",
+    "description": "Een lijst met bekende projecten die ik voltooid heb. Van simpele business websites naar administratie apps, food delivery en meer. Klik op een project voor meer informatie.",
+    "noProjects": "Momenteel zijn er geen projecten beschikbaar. Kom later nog eens terug."
+  },
+  "project": {
+    "back": "Terug naar projecten",
+    "link": "Bekijk project"
+  },
+  "faq": {
+    "title": "Veelgestelde vragen",
+    "description": "Veelgestelde vragen hier opgelijst.",
+    "noFaq": "Momenteel zijn er geen veelgestelde vragen beschikbaar. Kom later nog eens terug."
+  }
+}

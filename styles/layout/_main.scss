@@ -1,0 +1,53 @@
+main {
+  section {
+    @extend .mb-2;
+  }
+
+  @extend .my-1_2;
+
+  .neu_section {
+    margin-bottom: 1.75rem;
+    padding: 3rem;
+
+    @extend .radius-lg;
+
+    @include neu(false);
+  }
+
+  .about {
+    .buttons {
+      display: flex;
+      gap: 1rem;
+    }
+
+    .button {
+      display: inline-flex;
+      padding: 0;
+      width: 100%;
+
+      a {
+        padding: 0.85rem 0rem 0.85rem 1.5rem;
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        font-size: 16px;
+        width: 100%;
+      }
+
+      span {
+        font-weight: 600;
+        font-size: 16px;
+      }
+    }
+
+    @include sm {
+      .button {
+        width: auto;
+
+        a {
+          padding: 0.75rem 1.5rem;
+        }
+      }
+    }
+  }
+}

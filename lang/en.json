@@ -1,0 +1,77 @@
+{
+  "general": {
+    "readMore": "Read more",
+    "comingSoon": "Coming soon",
+    "services": {
+      "name": "Services",
+      "data": "Web design,Web development,SEO"
+    }
+  },
+  "seo": {
+    "title": "Software Developer from Bruges, Belgium | Webdevamin",
+    "description": "I provide digital solutions for your business with focus on your needs. Web design, web development, SEO and more. Contact me to boost your business online.",
+    "imagePath": "/images/ogbanner.png"
+  },
+  "header": {
+    "lang": {
+      "link": "en",
+      "switchLangLink": "nl",
+      "switchLangText": "NL"
+    },
+    "nav": {
+      "home": "Home",
+      "projects": "Projects",
+      "blogs": "Blogs",
+      "faq": "FAQ"
+    }
+  },
+  "hero": {
+    "summary": "I'm a software developer from Bruges, Belgium.",
+    "welcome": "Welcome to my portfolio",
+    "iam": "Hello, I am Amin",
+    "role_one": "a web designer",
+    "role_two": "a web developer",
+    "role_three": "a software engineer"
+  },
+  "about": {
+    "title": "Who am I",
+    "text": "I provide digital solutions for your business for example a website, web application, etc. Excelling at web- and mobile development, web design, SEO and digital marketing with focus on your needs. Satisfied many customers with excellent software delivery. My motto: Keep it concise with words, deliver state-of-art applications. In case you have any questions or need a digital solution (for example a website), don't hesitate to contact me.",
+    "resume": {
+      "link": "https://docs.google.com/document/d/e/2PACX-1vS9acAxKVHg0eN2LPo5EhQgrXGnL4XaucyoHbnFFiNYgQfGtczrHixNxVtLgU0vI1ILS9J6zflBfvZ4/pub",
+      "text": "My resume"
+    }
+  },
+  "notFound": {
+    "title": "Page not found",
+    "text": "The requested page does not exist.",
+    "link": "To homepage"
+  },
+  "error": {
+    "title": "Server error",
+    "text": "Something went wrong with the server. Please try again later."
+  },
+  "blogs": {
+    "title": "Blogs",
+    "title_two": "Skills, lessons and more",
+    "description": "Here you can see a list of interesting topics, stories and lessons about IT, development, career, freelance, etc. Click on any blog to read more about it.",
+    "noBlogs": "There are no blogs available at this moment. Come back again later."
+  },
+  "blog": {
+    "back": "Back to blogs"
+  },
+  "project": {
+    "back": "Back to projects",
+    "link": "Link to project"
+  },
+  "projects": {
+    "title": "Projects",
+    "title_two": "My work and achievements",
+    "description": "A list of popular projects I've completed. From simple business websites to food delivery applications, administration apps and more. Click on any project to read more about it.",
+    "noProjects": "There are no projects available at this moment. Come back again later."
+  },
+  "faq": {
+    "title": "Frequently asked questions",
+    "description": "Frequently asked questions listed here.",
+    "noFaq": "There are no frequently asked questions available at this moment. Come back again later."
+  }
+}
